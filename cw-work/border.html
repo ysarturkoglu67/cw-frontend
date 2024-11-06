@@ -1,0 +1,71 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .div{
+            width: 100px;
+            height: 100px;
+            background-color: none;
+            margin: 25px;
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .container{
+            color: white;
+            width: 500px;
+            height: 500px;
+            border: 1px solid black;
+            background-color: brown;
+            display: flex;
+           flex-wrap: wrap;
+        }
+        #a{
+            border: none;
+          }
+        #b{
+            border: 5px dotted white;
+        }
+        #c{
+            border: 5px dashed white;
+        }
+        #d{
+            border: 5px solid white;
+        }
+        #e{
+            border: 5px double white;
+        }
+        #f{
+            border: 5px groove white;
+        }
+        #g{
+            border: 5px ridge white;
+        }
+        #h{
+            border: 5px inset white;
+        }
+        #i{
+            border: 5px outset white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="a" class="div">none</div>
+        <div id="b" class="div">dotted</div>
+        <div id="c" class="div">dashed</div>
+        <div id="d" class="div">solid</div>
+        <div id="e" class="div">double</div>
+        <div id="f" class="div">grove</div>
+        <div id="g" class="div">ridge</div>
+        <div id="h" class="div">inset</div>
+        <div id="i" class="div">outset</div>
+    </div>
+</body>
+</html>
